@@ -1,0 +1,42 @@
+relembrando conceitos:
+# print("Paraavai")
+# print(18)
+
+# print(1.66)
+
+# print("Meu nome é: ", "Nicolas ", " e tenho: ", 18 , " anos")
+
+# nome = "Nicolas"
+
+# idade = 18
+
+# peso = 80.8
+
+# print("Eu peso: ", peso, " quilos")
+
+a = int(input("Informe um valor: "))
+b = int(input("Informe um segundo valor: "))
+c = int(input("Informe um teceiro valor: "))
+trocaValor = a
+a = b
+b = trocaValor
+soma = a + b + c
+x = (a + b) / c
+print("O resultado da soma é: ", soma)
+print("O valor de x é: ", x)
+
+Bibliotexas são conjuntos de códigos que podemos reutilizar.
+Exustem muitas bibliotecas(Infinada de bibliotecas).
+
+import random
+
+informeMinimo = int(input("Informe o valor inicial: "))
+informeMaximo = int(input("Informe o valor máximo: "))
+
+numeroAleatorio = random.randint(informeMinimo, informeMaximo)
+print("Número gerado: ", numeroAleatorio)
+
+sucessor = numeroAleatorio + 1
+antescessor = numeroAleatorio - 1
+print("O sucessor de ", numeroAleatorio, " é: ", sucessor)
+print("O antescessor de ", numeroAleatorio, " é: ", antescessor)
