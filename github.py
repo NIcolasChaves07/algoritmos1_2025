@@ -33,7 +33,9 @@ while len(menCommit) <= 10:
     menCommit = input("Mensagem muito curta. Digite uma mensagem com mais de 10 caracteres: ")
 
 # Executa os comandos Git
+os.system(f'git config user.email "{emailF}"')
 os.system('git add .')
 os.system(f'git commit -m "{menCommit}"')
+os.system('git branch -M main')
 os.system('git remote add origin https://github.com/NIcolasChaves07/algoritmos1_2025.git')
 os.system('git push -u origin main')
